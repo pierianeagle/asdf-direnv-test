@@ -42,3 +42,13 @@ pip install -r requirements.txt
 # make binaries accessible from PATH
 asdf reshim python
 ```
+
+# Environment Variables
+
+Environment variables are set in `.envrc`, there is no need for `.env`.
+
+```
+layout python
+
+export API_KEY=123
+```
