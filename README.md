@@ -8,7 +8,7 @@ This is a test of asdf version manager's workflow with direnv.
 git init
 
 # create .gitignore
-echo .venv/ > .gitignore
+echo .direnv/ > .gitignore
 
 # create .tool_versions
 asdf local python latest
